@@ -43,7 +43,7 @@ public class Task3Test {
         Assert.assertTrue(instance.isPalindrome("радар"));
         Assert.assertTrue(instance.isPalindrome("топот"));
         Assert.assertTrue(instance.isPalindrome("ротатор"));
-        Assert.assertTrue(instance.isPalindrome(""));
+        Assert.assertFalse(instance.isPalindrome(""));
         Assert.assertFalse(instance.isPalindrome(null));
         Assert.assertTrue(instance.isPalindrome("акка"));
         Assert.assertFalse(instance.isPalindrome("итмо"));
